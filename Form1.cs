@@ -117,5 +117,15 @@ namespace Project_WinForms
            
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

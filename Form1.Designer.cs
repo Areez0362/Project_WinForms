@@ -38,6 +38,8 @@
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button11 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -140,11 +142,34 @@
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Bradley Hand ITC", 39.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(119, 22);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(716, 66);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Al-Fast Cafeteria Management";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(775, 327);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(166, 34);
+            this.button11.TabIndex = 12;
+            this.button11.Text = "Close ";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(959, 384);
+            this.ClientSize = new System.Drawing.Size(991, 408);
+            this.Controls.Add(this.button11);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button8);
@@ -158,6 +183,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -173,5 +199,7 @@
         private Button button8;
         private Button button9;
         private Button button10;
+        private Label label1;
+        private Button button11;
     }
 }

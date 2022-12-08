@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project_WinForms.Model
 {
-    internal class Receipt
+    internal class Receipts
     {
         public string? ReceiptID { get; set; }
         public int TotalAmount { get; set; }

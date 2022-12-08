@@ -126,7 +126,7 @@ namespace Project_WinForms.Controller
             var uri = Path.Combine("DeleteItem", ItemID);
 
             var response = await client.DeleteAsync(uri);
-            response.EnsureSuccessStatusCode();
+           // response.EnsureSuccessStatusCode();
 
             if (response.IsSuccessStatusCode)
             {
